@@ -1,419 +1,605 @@
-@@include('header.htm')
-@@include('blocks/head.htm', {"home":"active" })
+<!DOCTYPE html>
 
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
 
-<!--================== Hero Area Section Start ==================-->
-<section class="hero-area section">
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Kross - Creative Portfolio Template</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Creative Portfolio Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Kross Template v1.0">
+  
+  <!-- theme meta -->
+  <meta name="theme-name" content="kross" />
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+  
+
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" alt="Myself"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- hero area -->
+<section class="hero-area bg-primary" id="parallax">
   <div class="container">
-    <div class="row text-center">
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+        <h1 class="text-white font-tertiary">Hi! I’m <br> Christoher <br> UX designer</h1>
+      </div>
+    </div>
+  </div>
+  <div class="layer-bg w-100">
+    <img class="img-fluid w-100" src="images/illustrations/leaf-bg.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l2">
+    <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l3">
+    <img src="images/illustrations/leaf-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l4">
+    <img src="images/illustrations/dots-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l5">
+    <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l6">
+    <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l7">
+    <img src="images/illustrations/dots-group-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l8">
+    <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l9">
+    <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
+  </div>
+  <!-- social icon -->
+  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+    <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-facebook"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-instagram"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-dribbble"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-twitter"></i></a></li>
+  </ul>
+  <!-- /social icon -->
+</section>
+<!-- /hero area -->
+
+<!-- about -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <p class="font-secondary paragraph-lg text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <a href="about.html" class="btn btn-transparent">know more</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->
+
+<!-- skills -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
+            <div class="wave" data-progress="90%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title">Web Design (90%)</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
+            <div class="wave" data-progress="60%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title">Logo Design (60%)</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
+            <div class="wave" data-progress="80%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title">After Effects (80%)</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
+            <div class="wave" data-progress="70%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title">Web App (70%)</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /skills -->
+
+<!-- experience -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-1.png" alt="icon">
+        <p class="mb-0">Jan 2007 - Feb 2009</p>
+        <h4>Junior UX Designer</h4>
+        <h6 class="text-light">WEBEX</h6>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-2.png" alt="icon">
+        <p class="mb-0">Mar 2009 - Aug 2014</p>
+        <h4>UX & UI Designer</h4>
+        <h6 class="text-light">AUGMEDIX</h6>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-3.png" alt="icon">
+        <p class="mb-0">Sep 2014 - Present</p>
+        <h4>Senior UI Designer</h4>
+        <h6 class="text-light">THEMEFISHER</h6>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ./experience -->
+
+<!-- education -->
+<section class="section position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2006</p>
+            <h4>Marters in UX Design</h4>
+            <p class="mb-0 text-light">Masassusets Institute of Technology</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2004</p>
+            <h4>Honours in Fine Arts</h4>
+            <p class="mb-0 text-light">Harvard University</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2000</p>
+            <h4>Higher Secondary Certificat</h4>
+            <p class="mb-0 text-light">Cardiff School</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">1998</p>
+            <h4>Secondary School Certificate</h4>
+            <p class="mb-0 text-light">Cardiff School</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bg image -->
+  <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+</section>
+<!-- /education -->
+
+<!-- services -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Services</h2>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-palette icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">UI Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card active-bg-primary hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-vector icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">UX Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-panel icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Interaction Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /services -->
+
+<!-- portfolio -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Portfolio</h2>
+      </div>
+    </div>
+    <div class="row shuffle-wrapper">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-1.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="#!">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-2.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="#!">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-3.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="#!">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-4.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="#!">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-5.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="#!">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /portfolio -->
+
+<!-- testimonial -->
+<section class="section bg-primary position-relative testimonial-bg-shapes">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title text-white mb-5">Testimonials</h2>
+      </div>
+      <div class="col-lg-10 mx-auto testimonial-slider">
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
+            alt="client-image">
+          <h4 class="text-white">Jesica Gomez</h4>
+          <h6 class="text-light mb-4">CEO, Funder</h6>
+        </div>
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+              ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in
+            voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
+            alt="client-image">
+          <h4 class="text-white">Jesica Gomez</h4>
+          <h6 class="text-light mb-4">CEO, Funder</h6>
+        </div>
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+              ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in
+            voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
+            alt="client-image">
+          <h4 class="text-white">Jesica Gomez</h4>
+          <h6 class="text-light mb-4">CEO, Funder</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bg shapes -->
+  <img src="images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
+  <img src="images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
+  <img src="images/illustrations/leaf-orange.png" alt="bg-shape" class="img-fluid bg-shape-2">
+  <img src="images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
+  <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
+  <img src="images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-5">
+</section>
+<!-- /testimonial -->
+
+<!-- client logo slider -->
+<section class="section pb-0">
+  <div class="container">
+    <div class="client-logo-slider d-flex align-items-center">
+      <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+      <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+      <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+      <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+      <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+      <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+      <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+      <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+      <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+      <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+    </div>
+  </div>
+</section>
+<!-- /client logo slider -->
+
+<!-- blog -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Blogs</h2>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-4.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog -->
+
+<!-- contact -->
+<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
       <div class="col-lg-8 mx-auto">
-        <div class="hero-img mx-auto mb-3 position-relative">
-          <img src="images/banner-img.png" alt="img">
-          <span class="shape shape-1"></span>
-          <span class="shape shape-2"></span>
-          <span class="shape shape-3"></span>
-          <span class="shape shape-4"></span>
-        </div>
-        <p class="mb-3 fw-medium fs-4 text-primary">Hello, myself Rick....</p>
-        <h1 class="mb-4">Creating fast website and softwares </h1>
-        <p class="mb-5">Lorem ipsum dolor sit amet, consecttur adipiscing Orci
-          fauff cibus urna, sed senectus iaculis leo condimentum. Maenas nec adipiscing neque, pellentesque in. Metus
-          fusce.</p>
-        <a href="#" class="btn btn-primary btn-lg">Know About Me</a>
-      </div>
-    </div>
-  </div>
-  <div class="has-circle">
-    <span class="circle circle-1"></span>
-    <span class="circle circle-2"></span>
-    <span class="circle circle-3"></span>
-    <span class="circle circle-4"></span>
-    <span class="circle circle-5"></span>
-    <span class="circle circle-6"></span>
-    <span class="circle circle-7"></span>
-  </div>
-</section>
-<!--================== Hero Area Section End ==================-->
-
-<!--================== Brand Logo Section start ==================-->
-<section class="brand-logo section pt-0">
-  <div class="container">
-    <div class="brand-logo-slider" data-aos="fade-up" data-aos-duration="1500">
-      <img class="brand-logo-img img-fluid" src="images/facebook.svg" alt="img">
-      <img class="brand-logo-img img-fluid" src="images/tinder.svg" alt="img">
-      <img class="brand-logo-img img-fluid" src="images//airbnb.svg" alt="img">
-      <img class="brand-logo-img img-fluid" src="images/microsoft.svg" alt="img">
-      <img class="brand-logo-img img-fluid" src="images/hubspp.svg" alt="img">
-      <img class="brand-logo-img img-fluid" src="images/tinder.svg" alt="img">
-      <img class="brand-logo-img img-fluid" src="images/facebook.svg" alt="img">
-      <img class="brand-logo-img img-fluid" src="images/tinder.svg" alt="img">
-      <img class="brand-logo-img img-fluid" src="images//airbnb.svg" alt="img">
-      <img class="brand-logo-img img-fluid" src="images/microsoft.svg" alt="img">
-      <img class="brand-logo-img img-fluid" src="images/hubspp.svg" alt="img">
-      <img class="brand-logo-img img-fluid" src="images/tinder.svg" alt="img">
-    </div>
-  </div>
-  </div>
-  </div>
-</section>
-<!--================== Brand Logo Section End ==================-->
-
-<!--================== Section Start ==================-->
-<section class="has-bg-color">
-  <div class="container">
-    <div class="row  justify-content-center align-items-center">
-      <div class="col-md-6">
-        <div class="me-4" data-aos="fade-right" data-aos-duration="1500">
-          <h2>A Global network of Talent That changeing the way Of creative</h2>
-        </div>
-      </div>
-      <div class=" col-md-6" data-aos="fade-left" data-aos-duration="1500">
-        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Males
-          a est sagittis et nulla leo ut nulla aliquam. Nisi, fermentum venentis enim vel suspend wergisse eu magnis
-          libero orci. Malesuada tortor aliquam malesuada vitae, ullamcorper nisl eget gravda et. Vivmus arcu laoreet
-          gravida purus cras. Et laoreet sit feugiat vehicula dufzi,
-          ermentum venentis enim vel suspend wergisse eu magnis libe orci.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!--================== Section End ==================-->
-
-<!--================== Service Section Start ==================-->
-<section class="services section">
-  <div class="container">
-    <div class="row mb-5 text-center">
-      <div class="col-lg-6 col-12 mx-auto ">
-        <div class="section-title mb-md-4">
-          <h2>Providing <strong>Services
-              <svg width="198" height="21" viewBox="0 0 198 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M2 18.7327C13.8854 9.74093 29.4859 8.69377 43.6964 6.03115C65.1095 2.01897 86.6266 1.40829 108.405 2.01061C137.628 2.81881 166.558 7.3721 195.577 11.0296"
-                  stroke="#FF5733" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </strong></h2>
-        </div>
-      </div>
-    </div>
-    <div class="row g-4 justify-content-center">
-      <div class="col-lg-4 col-md-6 card-item">
-        <div class="card text-center  border-0 bg-white radius shadow px-3 py-5" data-aos="fade-right"
-          data-aos-duration="1500">
-          <div class="card-icon mb-3">
-            <i class="fas fa-cloud "></i>
-          </div>
-          <div class="card-body">
-            <h4 class="card-title">Research And Design</h4>
-            <p class="card-text small">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et
-              nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
-            <a href="portfolio-single.html" class="text-primary card-link mb-0 small">View Details<i
-                class="fas fa-arrow-right ms-2"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 card-item">
-        <div class="card text-center  border-0 bg-white radius shadow px-3 py-5">
-          <div class="card-icon  mb-3">
-            <i class="far fa-lightbulb "></i>
-          </div>
-          <div class="card-body">
-            <h4 class="card-title">User Interface Design</h4>
-            <p class="card-text small">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et
-              nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
-            <a href="#" class="text-primary card-link mb-0 small">View Details<i
-                class="fas fa-arrow-right ms-2"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 card-item">
-        <div class="card text-center  border-0 bg-white radius shadow px-3 py-5" data-aos="fade-left"
-          data-aos-duration="1500">
-          <div class="card-icon mb-3">
-            <i class="fas fa-suitcase-rolling "></i>
-          </div>
-          <div class="card-body">
-            <h4 class="card-title">User Experience Design</h4>
-            <p class="card-text small">Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est sagittis et
-              nuasslla ntis enim vel suspend wergisse eu masgnis suada vitae, ullamchper nisl eget gravda.</p>
-            <a href="#" class="text-primary card-link mb-0 small">View Details<i
-                class="fas fa-arrow-right ms-2"></i></a>
-          </div>
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="#" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here" required></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!--================== Service Section End ==================-->
+<!-- /contact -->
 
-<!--================== Experience Section Start ==================-->
-<section class="experience section">
-  <div class="container">
-    <div class="row justify-content-between " data-aos="fade-up" data-aos-duration="1000">
-      <div class="col-lg-5">
-        <div class="section-title mb-5">
-          <h2>I Have brunch Of Huge <strong>
-              Experience.....
-              <svg width="243" height="19" viewBox="0 0 243 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M2.21709 14.5397C22.6251 11.094 43.5278 9.994 63.9195 6.62078C83.198 3.43169 103.311 4.48586 122.822 4.14529C147.108 3.72138 171.148 2.75291 195.34 5.24786C205.654 6.31158 217.3 7.49114 227.395 9.95137C230.185 10.6315 240.184 10.4221 241.39 12.7333"
-                  stroke="#FF5733" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </strong> </h2>
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">steve.fruits@email.com</p>
         </div>
-        <p>Lorem ipsum dolor sit amet, conse asdsd ctetur adipiscing elit. Malesa est
-          sagittis et nualla leo ut nulla
-          aliquam. Nisi, fermetum suspend vene ntis enim vel sussrf bedspend</p>
-        <div class="d-sm-flex justify-content-center mb-5 mb-lg-0 border-top pt-4 mt-4">
-          <div class="bg-primary me-sm-4 p-3 mb-4 mb-md-0">
-            <span class="text-primary h2">287+</span>
-            <p class="small">Lorem ipsum dolor sit amet, consesd </p>
-          </div>
-          <div class="bg-primary me-sm-4 p-3 mb-4 mb-md-0">
-            <span class="text-primary h2">12 years</span>
-            <p class="small">Lorem ipsum dolor siswsst amet, codvsd nssde esd </p>
-          </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">+880 2544 658 256</p>
         </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="mb-5">
-          <p class="text-secondery fw-normal mb-3 h4">Senior Product Designer</p>
-          <h3 class="mb-3 pb-3 border-bottom">Agency Vision Trust</h3>
-          <div class="d-md-flex justify-content-between">
-            <p class="fw-normal">Dec 2018 - Sep 2019</p>
-            <p class=" fw-normal">Thornridge Cir. Shiloh, Hawaii</p>
-          </div>
-        </div>
-        <div class="mb-5">
-          <p class="text-secondery fw-normal mb-3 h4">Lead User experience Designer</p>
-          <h3 class="mb-3 pb-3 border-bottom">Balkan Brothers Ltd.</h3>
-          <div class="d-md-flex justify-content-between">
-            <p class="fw-normal">Dec 2018 - Sep 2019</p>
-            <p class=" fw-normal">Washington. Manchester, Kentucky</p>
-          </div>
-        </div>
-        <div class="mb-5">
-          <p class="text-secondery fw-normal h4 mb-3">user Experience Designer</p>
-          <h3 class="mb-3 pb-3 border-bottom">Grabstar Design House</h3>
-          <div class="d-sm-flex justify-content-between">
-            <p class="fw-normal">Dec 2018 - Sep 2019</p>
-            <p class=" fw-normal">Thoridge. Syracuse, Connecticut</p>
-          </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Address</h5>
+          <p class="text-white paragraph-lg font-secondary">125/A, CA Commercial Area, California, USA</p>
         </div>
       </div>
     </div>
-
   </div>
-</section>
-<!--================== Experience Section End ==================-->
-
-<!--================== Testimonial Section Start ==================-->
-<section class="testimonial section pt-0">
-  <div class="container">
-    <div class="row mb-3  text-center">
-      <div class="col-lg-6 col-12 mx-auto ">
-        <div class="section-title mb-md-5">
-          <h2>Our <strong>Testimonial
-              <svg width="288" height="20" viewBox="0 0 288 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M1.5542 13.3865C8.73165 13.3396 16.0446 12.002 22.9875 10.3399C27.8345 9.17953 32.4949 9.48038 37.3191 8.46843C57.1014 4.31885 77.8606 4.85593 97.98 5.19219C133.674 5.78877 169.523 5.16219 205.291 5.76C232.293 6.2113 259.037 9.10976 285.99 9.56025"
-                  stroke="#FF5733" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </strong></h2>
-        </div>
-      </div>
-    </div>
-    <div class="row align-items-center justify-content-center bg-primary" data-aos="fade-up"
-      data-aos-duration="2000">
-      <div class="col-md-7 order-1 order-md-0">
-        <div class="testimonial-left-slider">
-          <div class="testimonial-left-slider-item">
-            <svg class="quotation" width="60" height="61" viewBox="0 0 60 61" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M24.1044 14.1903C25.6048 13.561 26.2341 11.7702 25.5564 10.3181L23.1847 5.33265C22.5071 3.92946 20.8614 3.29975 19.4093 3.92946C15.2951 5.67195 11.7618 7.94686 8.95443 10.7058C5.51786 13.9483 3.19455 17.6752 1.93609 21.7894C0.677632 25.9525 0 31.6151 0 38.827V53.6866C0 55.2838 1.30686 56.5907 2.90414 56.5907H21.9262C23.5235 56.5907 24.8304 55.2838 24.8304 53.6866V34.6644C24.8304 33.0667 23.5235 31.7603 21.9262 31.7603H12.8266C12.9234 26.8712 14.0851 22.9511 16.2148 19.9981C17.9573 17.6273 20.571 15.6912 24.1044 14.1903Z"
-                fill="#DBDBDB" />
-              <path
-                d="M58.2764 14.1903C59.7769 13.5611 60.4056 11.7702 59.7285 10.3181L57.3568 5.38159C56.6791 3.97792 55.0335 3.34869 53.5814 3.97792C49.5156 5.72041 46.0301 7.99532 43.1749 10.7058C39.7378 13.9972 37.3666 17.7242 36.1077 21.8384C34.8492 25.9037 34.2205 31.5672 34.2205 38.8276V53.6871C34.2205 55.2844 35.5273 56.5913 37.1246 56.5913H56.1467C57.744 56.5913 59.0509 55.2844 59.0509 53.6871V34.665C59.0509 33.0672 57.744 31.7609 56.1467 31.7609H46.9987C47.0955 26.8717 48.2576 22.9516 50.3868 19.9986C52.1293 17.6274 54.743 15.6913 58.2764 14.1903Z"
-                fill="#DBDBDB" />
-            </svg>
-            <div class="ms-lg-5 ms-md-4  mb-3">
-              <div class="ms-md-4">
-                <p>Lorem ipsum dolor sit amet, conse ctetur addipis cing elit. Malesa est sagittis
-                  et nulla leo ut nulsla aliquam. Nisi, fermentum venentis enim vel sussp end wergisse eu magnis
-                  libero
-                  orci. Males uasda eget gravda et. Vivmus arcu laoreet gravida purus cras. Et laoreet sit feugiat
-                  vehicula dufzi, eme tum venentis enim vel suspend wergisse eu maAgnis .</p>
-              </div>
-              <div class="d-flex ms-md-4   align-items-center justify-content-md-start justify-content-center">
-                <img class="img" src="images/tstimonial-left-img.png" alt="img">
-                <div class="text ms-3">
-                  <h5 class="mt-4 mb-1">Ronald Richards</h5>
-                  <p>CEO, Themeexpart Limited</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-left-slider-item">
-            <svg class="quotation" width="60" height="61" viewBox="0 0 60 61" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M24.1044 14.1903C25.6048 13.561 26.2341 11.7702 25.5564 10.3181L23.1847 5.33265C22.5071 3.92946 20.8614 3.29975 19.4093 3.92946C15.2951 5.67195 11.7618 7.94686 8.95443 10.7058C5.51786 13.9483 3.19455 17.6752 1.93609 21.7894C0.677632 25.9525 0 31.6151 0 38.827V53.6866C0 55.2838 1.30686 56.5907 2.90414 56.5907H21.9262C23.5235 56.5907 24.8304 55.2838 24.8304 53.6866V34.6644C24.8304 33.0667 23.5235 31.7603 21.9262 31.7603H12.8266C12.9234 26.8712 14.0851 22.9511 16.2148 19.9981C17.9573 17.6273 20.571 15.6912 24.1044 14.1903Z"
-                fill="#DBDBDB" />
-              <path
-                d="M58.2764 14.1903C59.7769 13.5611 60.4056 11.7702 59.7285 10.3181L57.3568 5.38159C56.6791 3.97792 55.0335 3.34869 53.5814 3.97792C49.5156 5.72041 46.0301 7.99532 43.1749 10.7058C39.7378 13.9972 37.3666 17.7242 36.1077 21.8384C34.8492 25.9037 34.2205 31.5672 34.2205 38.8276V53.6871C34.2205 55.2844 35.5273 56.5913 37.1246 56.5913H56.1467C57.744 56.5913 59.0509 55.2844 59.0509 53.6871V34.665C59.0509 33.0672 57.744 31.7609 56.1467 31.7609H46.9987C47.0955 26.8717 48.2576 22.9516 50.3868 19.9986C52.1293 17.6274 54.743 15.6913 58.2764 14.1903Z"
-                fill="#DBDBDB" />
-            </svg>
-            <div class="ms-lg-5 ms-md-4 mb-3">
-              <div class="ms-md-4">
-                <p>Lorem ipsum dolor sit amet, conse ctetur addipis cing elit. Malesa est sagittis
-                  et nulla leo ut nulsla aliquam. Nisi, fermentum venentis enim vel sussp end wergisse eu magnis
-                  libero
-                  orci. Males uasda eget gravda et. Vivmus arcu laoreet gravida purus cras. Et laoreet sit feugiat
-                  vehicula dufzi, eme tum venentis enim vel suspend wergisse eu maAgnis .</p>
-              </div>
-              <div
-                class="d-flex ms-md-4 mb-4 mb-md-0 align-items-center justify-content-md-start justify-content-center">
-                <img class="img" src="images/tstimonial-left-img.png" alt="img">
-                <div class="text ms-3">
-                  <h5 class="mt-4 mb-1">Ronald Richards</h5>
-                  <p>CEO, Themeexpart Limited</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-left-slider-item">
-            <svg class="quotation" width="60" height="61" viewBox="0 0 60 61" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M24.1044 14.1903C25.6048 13.561 26.2341 11.7702 25.5564 10.3181L23.1847 5.33265C22.5071 3.92946 20.8614 3.29975 19.4093 3.92946C15.2951 5.67195 11.7618 7.94686 8.95443 10.7058C5.51786 13.9483 3.19455 17.6752 1.93609 21.7894C0.677632 25.9525 0 31.6151 0 38.827V53.6866C0 55.2838 1.30686 56.5907 2.90414 56.5907H21.9262C23.5235 56.5907 24.8304 55.2838 24.8304 53.6866V34.6644C24.8304 33.0667 23.5235 31.7603 21.9262 31.7603H12.8266C12.9234 26.8712 14.0851 22.9511 16.2148 19.9981C17.9573 17.6273 20.571 15.6912 24.1044 14.1903Z"
-                fill="#DBDBDB" />
-              <path
-                d="M58.2764 14.1903C59.7769 13.5611 60.4056 11.7702 59.7285 10.3181L57.3568 5.38159C56.6791 3.97792 55.0335 3.34869 53.5814 3.97792C49.5156 5.72041 46.0301 7.99532 43.1749 10.7058C39.7378 13.9972 37.3666 17.7242 36.1077 21.8384C34.8492 25.9037 34.2205 31.5672 34.2205 38.8276V53.6871C34.2205 55.2844 35.5273 56.5913 37.1246 56.5913H56.1467C57.744 56.5913 59.0509 55.2844 59.0509 53.6871V34.665C59.0509 33.0672 57.744 31.7609 56.1467 31.7609H46.9987C47.0955 26.8717 48.2576 22.9516 50.3868 19.9986C52.1293 17.6274 54.743 15.6913 58.2764 14.1903Z"
-                fill="#DBDBDB" />
-            </svg>
-            <div class="ms-lg-5 ms-md-4 mb-3">
-              <div class="ms-md-4">
-                <p>Lorem ipsum dolor sit amet, conse ctetur addipis cing elit. Malesa est sagittis
-                  et nulla leo ut nulsla aliquam. Nisi, fermentum venentis enim vel sussp end wergisse eu magnis
-                  libero
-                  orci. Males uasda eget gravda et. Vivmus arcu laoreet gravida purus cras. Et laoreet sit feugiat
-                  vehicula dufzi, eme tum venentis enim vel suspend wergisse eu maAgnis .</p>
-              </div>
-              <div
-                class="d-flex ms-md-4 mb-4 mb-md-0 align-items-center justify-content-md-start justify-content-center">
-                <img class="img" src="images/tstimonial-left-img.png" alt="img">
-                <div class="text ms-3">
-                  <h5 class="mt-4 mb-1">Ronald Richards</h5>
-                  <p>CEO, Themeexpart Limited</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="col-md-5 col-xl-4 order-0 order-md-1">
-        <div class="testimonial-right-slider mb-md-0 mb-5">
-          <img class="img img-fluid" src="images/tstimonial-right-img.png" alt="img">
-          <img class="img img-fluid" src="images/tstimonial-right-img-two.png" alt="img">
-          <img class="img img-fluid" src="images/tstimonial-right-img-three.png" alt="img">
-        </div>
-      </div>
-    </div>
-
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright &copy;<script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> Designed &amp; Developed by <a class="text-white-50" href="Themefisher">Themefisher</a></p>
   </div>
-  </div>
-</section>
-<!--================== Testimonial Section End ==================-->
+</footer>
+<!-- /footer -->
 
-<!--================== Project Section Start ==================-->
-<section class="projects section pt-0">
-  <div class="container">
-    <div class="row mb-5 text-center">
-      <div class="col-lg-6 col-12 mx-auto ">
-        <div class="section-title mb-md-4">
-          <h2>My <strong>
-              Selected
-              <svg class="" width="198" height="21" viewBox="0 0 198 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M2 18.7327C13.8854 9.74093 29.4859 8.69377 43.6964 6.03115C65.1095 2.01897 86.6266 1.40829 108.405 2.01061C137.628 2.81881 166.558 7.3721 195.577 11.0296"
-                  stroke="#FF5733" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </strong> projects
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
 
-          </h2>
-        </div>
-      </div>
-    </div>
-    <div class="row g-4 g-md-5 ">
-      <div class="col-md-6 image-item">
-        <div class="card rounded-0 border-0" data-aos="fade-up" data-aos-duration="1500">
-          <img class="img-fluid" src="images/project-img.png" alt="img">
-          <div class="card-img-overlay">
-            <div class="card-body">
-              <a href="portfolio-single.html" class="h4 text-white"> Drinking from the sea of knowledge</a>
-              <ul class="meta-list list-unstyled d-flex">
-                <li class="list-inline-item text-white fw-normal">Digital</li>
-                <li class="list-inline-item text-white fw-normal">Exhibition</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 image-item">
-        <div class="card rounded-0 border-0" data-aos="fade-up" data-aos-duration="1500">
-          <img class="img-fluid" src="images/project-img-one.png" alt="img">
-          <div class="card-img-overlay">
-            <div class="card-body">
-              <a href="portfolio-single.html" class="h4 text-white ">A Feast Of A Time-Honored History</a>
-              <ul class="meta-list list-unstyled d-flex">
-                <li class="list-inline-item text-white fw-normal">Digital</li>
-                <li class="list-inline-item text-white fw-normal">Branding</li>
-              </ul>
-            </div>
-          </div>
+<!-- Main Script -->
+<script src="js/script.js"></script>
 
-        </div>
-      </div>
-      <div class="col-md-6 image-item">
-        <div class="card rounded-0 border-0" data-aos="fade-up" data-aos-duration="2000">
-          <img class="img-fluid" src="images/project-img-two.png" alt="img">
-          <div class="card-img-overlay">
-            <div class="card-body">
-              <a href="portfolio-single.html" class="h4 text-white ">Google Play ACG Interactive Game</a>
-              <ul class="meta-list list-unstyled d-flex">
-                <li class="list-inline-item text-white fw-normal">Digital</li>
-                <li class="list-inline-item text-white fw-normal">Events</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="col-md-6 image-item">
-        <div class="card rounded-0 border-0" data-aos="fade-up" data-aos-duration="2000">
-          <img class="img-fluid" src="images/project-img-three.png" alt="img">
-          <div class="card-img-overlay">
-            <div class="card-body">
-              <a href="portfolio-single.html" class="h4 text-white ">Monopoly Dreams Hong Kong</a>
-              <ul class="meta-list list-unstyled d-flex">
-                <li class="list-inline-item text-white fw-normal">Digital</li>
-                <li class="list-inline-item text-white fw-normal">Marketing</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="col-12 mx-auto text-center">
-        <a href="portfolio.html" class="btn btn-outline-primary text-capitailize fw-medium py-2">view all</a>
-      </div>
-    </div>
-  </div>
-  </div>
-</section>
-<!--================== Project Section End ==================-->
-
-
-@@include('blocks/footer.htm')
-@@include('footer.htm')
+</body>
+</html>
