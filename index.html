@@ -40,7 +40,59 @@
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+<style>
+.slider {
+  margin: 0 40px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
 
+.slider .image-items {
+  height: 100%;
+}
+
+.slider .image-items .image {
+  height: 100%;
+}
+
+.slider .image-items .image img {
+  height: 100%;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.arrowButton {
+  position: absolute !important;
+  top: 50% !important;
+  color: black !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  background-color: white !important;
+  padding: 10px !important;
+}
+
+.arrowButton.left {
+  left: 0 !important;
+}
+
+.arrowButton.right {
+  right: 0 !important;
+}
+
+.arrowButton::after {
+  font-size: 20px !important;
+}
+
+@media only screen and (max-width: 868px) {
+  .slider {
+    margin: 0 20px;
+  }
+}
+</style>
 </head>
 <body>
   
